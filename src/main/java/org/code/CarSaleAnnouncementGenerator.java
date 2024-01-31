@@ -27,7 +27,7 @@ public class CarSaleAnnouncementGenerator
 
     public String chatGPT() {
         String url = "https://api.openai.com/v1/chat/completions";
-        String apiKey = "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"; // API key goes here
+        String apiKey = ""; // API key goes here
         String model = "gpt-3.5-turbo";
 
         try {
